@@ -33,6 +33,11 @@
                                                 fieldDescription="Leave empty to use the page title."
                                                 fieldLabel="Title"
                                                 name="./title"/>
+                                            <description
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Description"
+                                                name="./description"/>
                                         </items>
                                     </column>
                                 </items>
